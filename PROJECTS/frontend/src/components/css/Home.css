@@ -1,0 +1,237 @@
+/*---------------Start Home Page Banner Css------------*/
+
+.banner {
+    background-image: url(https://i.pinimg.com/originals/bd/ff/7c/bdff7c58f3dd21943610d47a2ae0fbdc.jpg);
+    width: 100%;
+    background-size: cover;
+    padding: 125px 0 125px 0;
+    background-repeat: no-repeat;
+    box-shadow: inset 50px 50px 1000px 100px rgba(2, 8, 52, 0.74902);
+    background-attachment: fixed;
+}
+
+.bannerlinef li {
+    border: 1px solid #00ffd3d9;
+    list-style: none;
+    HEIGHT: 1PX;
+    WIDTH: 20%;
+    margin-top: 11px;
+    margin-right: 11px;
+    TEXT-ALIGN: CENTER;
+}
+
+.bannerlinef p {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    letter-spacing: .03em;
+}
+
+.bannerlines li {
+    border: 1px solid #00ffd3d9;
+    list-style: none;
+    HEIGHT: 1PX;
+    WIDTH: 20%;
+    margin-top: 11px;
+    margin-right: 11px;
+    TEXT-ALIGN: CENTER;
+}
+
+.bannerlines p {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    letter-spacing: .03em;
+}
+
+.banner-heading-one {
+    font-size: 125px;
+    font-weight: 900;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 1;
+    margin: 0;
+}
+
+.banner-heading-two {
+    font-size: 120px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+/*---------------Start Home Page Services Css------------*/
+.service .ser-back-heading {
+    font-size: 140px;
+    font-weight: 800;
+    font-family: "Barlow", sans-serif;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #f2f2f2;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: 1;
+}
+
+.service .ser-front-heading {
+    color: #0e132a;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: -70px;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+}
+
+.service .ser-main-box .ser-content-box h4 a {
+    color: #0e132a;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+}
+
+.service .ser-main-box .ser-content-box h4 a:hover {
+    color: rgb(0, 217, 255);
+}
+.service .ser-main-box .ser-img-box img {
+    height: 260px !important;
+}
+.service .ser-main-box .ser-content-box {
+    padding: 20px;
+    background: #8080800f;
+
+}
+.service .ser-main-box .ser-img-box img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out 0s;
+}
+
+/* .service .ser-main-box .ser-content-box:hover {
+    box-shadow: 0px 0px 4px 1px #0000000d;
+    border: 1px solid #00a297d9;
+} */
+.service .ser-main-box .ser-content-box .more-btn {
+    color: #161e46;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    font-family: "Barlow", sans-serif;
+}
+
+.service .ser-main-box .ser-content-box .more-btn .bi {
+    color: #004749;
+    font-size: 21px;
+    display: inline-block;
+    padding: 3px 9px;
+    margin-left: 12px;
+    transition: all 0.4s ease-in-out;
+}
+
+.service .ser-main-box .ser-content-box:hover .more-btn .bi {
+    color: white;
+    background-color: rgb(0, 217, 255);
+
+}
+
+
+
+/* ============Start Media Query============= */
+
+@media (max-width:992px){
+    .banner-heading-one {
+        font-size: 80px;
+      }
+      .banner-heading-two {
+        font-size: 95px;
+      }
+}
+@media (max-width:768px){
+    .service .ser-main-box .ser-img-box img {
+        height: 260px !important;
+        width: 100%;
+      }
+}
+@media (max-width:575px){
+    .ser-main-box {
+        margin-bottom: 25px;
+      } 
+      .banner-heading-one {
+        font-size: 50px;
+      }
+      .banner-heading-two {
+        font-size: 70px;
+        margin-left: 20px;
+      }
+
+    .service .ser-back-heading {
+        font-size: 96px;    
+    }
+    .service .ser-front-heading {
+        margin-top: -40px;
+      }
+}
+@media (max-width:420px){
+    .service .ser-back-heading {
+        font-size: 80px;
+      }
+      .banner-heading-two {
+        font-size: 60px;
+        margin-left: 20px;
+      }
+}
+
+/*---------------Start Home Page Who We Are  Css------------*/
+
+/* .whowe .whowe-content .heading {
+    color: #0e132a;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+}
+
+.whowe .whowe-content .who-para-cont .top-para {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Barlow", sans-serif;
+    color: #0b0b2b;
+}
+.whowe .whowe-content .who-para-cont p {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Barlow", sans-serif;
+}
+.whowe .whowe-content .who-para-cont a.btn {
+    padding: 13px 30px;
+    font-size: 15px;
+    background: black;
+    border-radius: 0;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    transition: all 0.4s ease-in-out;
+
+}
+.whowe .whowe-content .who-para-cont a.btn:hover {
+    background-color: rgb(0, 217, 255);
+
+}
+.img-upper-div {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 30px;
+    background: #000000;
+} */
+
+/* https://preview.colorlib.com/#constructioncompany */

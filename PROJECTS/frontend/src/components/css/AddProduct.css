@@ -1,0 +1,46 @@
+.product{
+    background-image: url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 150px 0 !important;
+}
+.product .pro-content h1 {
+    color: black;
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.user-input input {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 20px 0 5px 0 !important;
+    border: gainsboro;
+}
+.user-input button.btn {
+    width: 100%;
+    background: #00aeff;
+    border: navajowhite;
+    border-radius: 0;
+    padding: 8px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.user-input button.btn:hover{
+    background:black;
+}
+.list-content ul li {
+    display: inline-block;
+    border: 1px solid #e3e3e3;
+    width: 20%;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.input-color-box {
+    background: #ffffff52;
+    padding: 20px;
+}
